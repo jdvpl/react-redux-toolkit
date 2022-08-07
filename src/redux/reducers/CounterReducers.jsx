@@ -14,6 +14,6 @@ export const counterSlices = createReducer(initialState, (buider) => {
     state.value--;
   });
   buider.addCase(increaseAmount, (state, action) => {
-    state.value = action.payload;
+    state.value += action.payload;
   });
 });
