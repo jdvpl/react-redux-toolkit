@@ -1,11 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { counterSlices } from "../reducers/CounterReducers";
-import { multiplySlices } from "../reducers/MultiplyReducer";
+import counterReducer from "../reducers/createSlice/counterSlices";
 
 const store = configureStore({
   reducer: {
-    counter: counterSlices,
-    multiples: multiplySlices,
+    counter: counterReducer,
   },
 });
 
