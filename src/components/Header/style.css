@@ -1,0 +1,30 @@
+ul {
+  display: flex;
+  gap: 15px;
+  background-color: rgb(0, 0, 0);
+  width: 97.2vw;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 60px;
+  overflow: hidden;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(250, 255, 250);
+  font-size: 20px;
+  padding: 16px;
+}
+ul li a:hover {
+  color: black;
+  background: rgb(255, 254, 252);
+}
+.active {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
