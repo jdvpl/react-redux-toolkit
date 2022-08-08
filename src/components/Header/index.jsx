@@ -9,7 +9,9 @@ const Header = ({ page }) => {
         </Link>
       </li>
       <li>
-        <Link to="/post">Post</Link>
+        <Link to="/post" className={`${page == "post" && "active"}`}>
+          Post
+        </Link>
       </li>
     </ul>
   );

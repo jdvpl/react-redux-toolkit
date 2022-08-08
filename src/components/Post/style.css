@@ -1,0 +1,20 @@
+.usersList {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+  border: 1px solid rgb(198, 196, 196);
+  padding: 10px;
+  align-items: center;
+}
+.usersList img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .usersList {
+    width: 100%;
+    flex-direction: column;
+  }
+}
